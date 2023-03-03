@@ -1,0 +1,75 @@
+/* DESIGNED BY: ROY CUADRA
+BSIT - 2 */
+/* i love CSS */
+body{
+    background-size:cover;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    cursor: pointer;
+    float: right;
+}
+main{
+    background:transparent;
+    box-sizing: border-box;
+    padding: 40px;
+    border-radius: 25px;
+    box-shadow: 0 0 50px 0 rgb(252, 139, 209);
+    border: 5px solid rgb(44, 81, 245);
+    border-style: double dotted;
+}
+#ques{
+    font-size: 60px;
+    margin: 10px 50px;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(252, 247, 247);
+}
+#options{
+    display: flex;
+    flex-flow: row;
+    height: 100px;
+    align-items: stretch;
+}
+#yes{
+    padding: 15px 60px;
+    width: auto;
+    background:radial-gradient(rgb(58, 223, 245), rgb(95, 61, 248));
+    color: rgb(19, 20, 19);
+    font-family:cursive;
+    border-radius: 25px;
+    width: 30px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    border:1px solid rgb(50, 50, 245) ;
+    border-bottom: 5px solid black;
+    margin-top: 60px;
+    box-shadow: 0 0 20px 0 rgb(108, 198, 250);
+}  
+#no{
+     top: 5px;
+     left: 30px;
+     padding: 15px 60px;
+     width: auto;
+     background:radial-gradient(rgb(58, 223, 245), rgb(95, 61, 248));
+     color: rgb(27, 25, 25);
+     font-family:cursive;
+     border-radius: 25px;
+     width: 30px;
+     text-align: center;
+     font-size: 30px;
+     font-weight: bold;
+     border:1px solid rgb(50, 50, 245) ;
+     border-style:ridge ;
+     border-bottom: 5px solid black;
+     box-shadow: 0 0 20px 0 rgb(108, 198, 250);
+     margin-top: 60px;
+}
